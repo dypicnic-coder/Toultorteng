@@ -1,0 +1,6 @@
+{
+  "name": "ប្រព័ន្ធគ្រប់គ្រងពិន្ទុ និងវត្តមានសិស្ស",
+  "description": "ប្រព័ន្ធគ្រប់គ្រងពិន្ទុសិស្ស ស្រង់វត្តមាន តារាងចំណាត់ថ្នាក់ តារាងកិត្តិយស និងព្រឹត្តិបត្រពិន្ទុ ដំណើរការដោយ Python និង SQL តាមគំរូក្រសួងអប់រំ យុវជន និងកីឡា",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-khmer: 'Kantumruy Pro', sans-serif;
+    --font-moul: 'Moul', serif;
+    --font-battambang: 'Battambang', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-khmer);
+  }
+}
+
+.font-moul {
+  font-family: 'Moul', cursive, serif;
+}
+
+.font-battambang {
+  font-family: 'Battambang', cursive, sans-serif;
+}
+
+.font-khmer {
+  font-family: 'Kantumruy Pro', sans-serif;
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 8mm;
+  }
+  
+  .print-portrait {
+    page-break-after: always;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
